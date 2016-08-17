@@ -11,15 +11,24 @@ been made permanently.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
--
+- the staging area allows you to review what files and changes will be commited before the
+commit. This can be especially useful if there are other changes in the working directory
+that may be best to group in a separte commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+- Branches are helpful in keeping different versions of the code and allowing concurrent work
+to progress in different areas. Branches help in that separate changes can be tracked even to the same file.
 
 How do the diagrams help you visualize the branch structure?
+- Diagrams help to visualize by detailing what commits belong on a branch
+and what commits are reachable from each branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+- The changes from both branches are present in the merged branch. The branches now are merged or
+or joined together.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+- The auto merging can save some time when it works and is unambiguous.
