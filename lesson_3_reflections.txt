@@ -7,25 +7,36 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    The remote could have changes that are made by somebody else and either don't 
+	work and could break what you have or might not work with changes you have not
+	put on the remote repository.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    You would use a fork to create a copy of a repository that you will either not
+	change are do not have permission to change. This only exists on GitHub. You clone when
+	you want to create a copy of a repository. Branching is used inside a repository to 
+	track a parallel version of line of development for a repository.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    So, that even offline you can keep track of what changes you have made that are not on the 
+	remote repository.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without some type of cm system you could share files over some other means like email.
+	This would be easier in that you can just send file it would be much harder to keep
+	all the changes synched or keep from clobbering others work or getting things into
+	such a mess that it can't be made to work again without a huge effort.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
-    
+    You would want to make changes in a separate branch most times when you are fixing bugs,
+	adding functionality, or trying things out. You would only want to make changes to the master
+	when you want to share with others or an idea or bug is ready to be incorparated to the
+	main line of development.
